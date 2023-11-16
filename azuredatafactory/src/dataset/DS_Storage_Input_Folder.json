@@ -1,0 +1,19 @@
+{
+	"name": "DS_Storage_Input_Folder",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_ABLB_Storage_Demo",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"folderPath": "input",
+				"container": "adftutorial"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
